@@ -1,0 +1,157 @@
+* {
+    text-align: center;
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: peachpuff;
+}
+
+
+img {
+    width: 225px;
+    
+}
+.picwine{
+    float:right ;
+    
+   
+}
+
+.title{
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgba(206, 50, 50, 0.747);
+}
+
+.info {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+table,
+tr {
+    text-align: center;
+}
+
+.pizza_tb {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-style: solid;
+   
+    
+}
+
+.pasta_tb {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-style: solid
+    
+}
+
+.drinks_tb {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-style: solid;
+
+
+}  
+
+.dessert_tb {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-style: solid;
+
+
+}
+
+.businesshours {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    text-transform: uppercase;
+    
+    
+}
+
+.gallery {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+
+  .flag {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(90deg, #009246, #ffffff, #ce2b37);
+  }
+  h2 {
+    font-size: 44px;;
+  }
+
+  
+
+  
+
+  td, th {
+    border: 1px solid rgba(206, 50, 50, 0.747);
+    text-align: left;
+    padding: 8px; }
+
+
+    .table {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .canvas {
+        height: 2px;
+    }
+
+
+     .handy {
+        font-size: 28px;
+        margin-top: 50px;
+     }
+
+     .footer {
+        margin-top: 46px;
+      }
+
+      .footer {
+        padding-top: 20px;
+      }
